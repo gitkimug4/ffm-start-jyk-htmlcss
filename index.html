@@ -1,25 +1,54 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>스타트 html, css, github</title>
-    <style>
-    body {
-        font-family: Arial, sans-serif;
-    }
-    h1 {
-        color: navy;
-    }
-    p {
-        color: gray;
-    }
-    </style>
+    <title>스타트 html, css, github v2</title>
+    <!--스마트폰맞춤-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!--검색결과-->
+    <meta name="description" content="저의 첫 HTML페이지에요">
+    <meta name="keywords" content="초보자,html,연습">
+<!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css rel="stylesheet">
 </head>
 <body>
-    <h1>프로젝트1.1 첫 HTML 페이지</h1>
-    <p>안녕하세요!</p>
-    <p>어떻게 진행해야할지 몰라서 먼서 기본 틀?을 만들어보았습니다.</p>
-    <p>몇가지 과제를 던져주시면 여기에 살을 더 붙여가보려고 합니다.</p>
-    <p>잘 부탁드립니다.</p>
+<!--Bootstrap 그리드시스템 이해-->
+<!--Bootstrap 해더 글의 위치, 배경색, 글자색-->
+<div class="top_wrap">
+    <div class="top_bg bg-secondary">
+        <div class="top_inner text-white">
+            <h1>프로젝트 첫 HTML 페이지</h1>
+        </div>
+    </div>
+</div>
+
+<!--Bootstrap 그리드 시작-->
+<div class="container">
+    <h2>그리드로 분할</h2>
+    <div class="row">
+        <div class="col">
+            <h3>왼쪽 문단</h3>
+            <p>오늘은 5월 16일 흐림</p>
+            <button type="button" class="btn-secondary">
+                <a href="#" class="text-white">MORE</a>
+            </button>
+        </div>
+        <div class="col">
+            <h3>가운데 문단</h3>
+            <p>It's our time 우린 달라, 특별한 게 좋아 Oh, what a good time 난 잘 살아, 내 걱정은 낭비야</p>
+            <button type="button" class="btn-secondary">
+                <a href="#" class="text-white">MORE</a>
+            </button>
+        </div>
+        <div class="col">
+            <h3>오른쪽 문단</h3>
+            <p>내 영혼이 따뜻했던 날들//이 책에는 세대를 이어오면서 전해 내려오는 인디언들의 지혜로운 삶의 방법들이 그대로 녹아 있다. 그들의 지혜는 물질문명과 자본주의의 발달 속에서 피폐해가는 현대인들의 정신문화에 대안을 제시하고, 급속히 환경을 파괴하고 있는 현대문명과 우리 주변의 작고 소중한 모든 생명체들에 대해서 다시 한 번 되돌아보는 계기가 되기에 부족함이 없다.</p>
+            <button type="button" class="btn-secondary">
+                <a href="#" class="text-white">MORE</a>
+            </button>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
